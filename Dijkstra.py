@@ -32,7 +32,7 @@ class Dijkstra:
     def calculate(self, start_vertex, start_point ):
         start_vertex.min_distance = 0
         heapq.heappush(self.heap, start_vertex)
-        print(f"Point medan perang di {start_point}")
+        print(f"Posisi markas di {start_point}")
         
         while self.heap:
             actual_vertex = heapq.heappop(self.heap)
@@ -50,7 +50,7 @@ class Dijkstra:
     
     def get_shortest_path(self, vertex, start_point):
        
-        print(f"Markas di titik {start_point}")
+        print(f"Medan perang di titik {start_point}")
         print(f"Jalur terpendek yang ditempuh sejauh {vertex.min_distance} KM")
         actual_vertex = vertex
         print(f"Jalur yang harus ditempuh pasukan yaitu : ")
