@@ -32,7 +32,7 @@ class Trie:
 
         if currentNode.endOfString == True:
             return (f"""Pesan yang dimasukkan cocok!
-Pesan yang diteriama yaitu kata "{word}" \n""")
+Pesan yang diterima yaitu kata "{word}" \n""")
         else:
             return (f"""Pesan yang dimasukkan tidak cocok!\n""")
         

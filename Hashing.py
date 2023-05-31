@@ -1,5 +1,4 @@
-#   Created by Elshad Karimov 
-#   Copyright © 2021 AppMillers. All rights reserved.
+
 
 
 class HAshing:
