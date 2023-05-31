@@ -13,7 +13,7 @@ class Execution:
       "Telecommunication Station" : 10,
       "Weapon Warehouse" : 4,
       "Weapon Vactory" : 7,
-      "Commad Center" : 3 ,
+      "Airport" : 3 ,
       "Oil Resource" : 8
   }
 
@@ -33,12 +33,12 @@ class Execution:
   targetPrioirty.binarySearch(sortedPonts, dictionaryTarget[target], target)
   target = "Weapon Vactory"
   targetPrioirty.binarySearch(sortedPonts, dictionaryTarget[target], target)
-  target = "Commad Center"
+  target = "Airport"
   targetPrioirty.binarySearch(sortedPonts, dictionaryTarget[target], target)
 
   print("\n")
   # Melakukan pengaturan formasi penyerangan
-  print(".::{Vormai penyerangan}::.\n")
+  print(".::{formasi penyerangan}::.\n")
   troops = {
       "Medic" : 2,
       "Tank troops " : 5,
